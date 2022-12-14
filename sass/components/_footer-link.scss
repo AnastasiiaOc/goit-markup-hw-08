@@ -1,0 +1,26 @@
+.link {
+    list-style: none;
+}
+
+.link-address,
+.link-list,
+.link-phone {
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: var(--white-logo-hero-color);
+
+    display: flex;
+}
+
+.link-address,
+.link-list {
+    margin-bottom: 9px;
+}
+
+.link-list,
+.link-phone {
+    color: var(--white-transparent-color);
+}

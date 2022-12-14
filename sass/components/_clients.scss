@@ -1,0 +1,68 @@
+.clients {
+    background-color: var(--head-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container-clients {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.clients-heading {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--heading-color);
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-list-item {
+    width: 170px;
+    height: 92px;
+}
+
+.clients-link {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--logos-color);
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+        border-color: var(--logo-hover-color);
+    }
+
+}
+
+.clients-logo {
+    fill: var(--logos-color);
+    width: 106px;
+    height: 60px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .clients-link:hover & {
+        fill: var(--logo-hover-color);
+    }
+
+    .clients-link:focus & {
+        fill: var(--logo-hover-color);
+    }
+
+}

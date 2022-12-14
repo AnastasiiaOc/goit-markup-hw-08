@@ -1,0 +1,20 @@
+.container-footer {
+    display: flex;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    align-items: baseline;
+    position: relative;
+}
+
+.footer-contacts {
+    margin-right: 70px;
+}
+
+.bottom-page {
+    background-color: var(--footer-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
