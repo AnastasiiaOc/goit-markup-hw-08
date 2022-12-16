@@ -1,5 +1,11 @@
+
+
 .link {
     list-style: none;
+
+    @media screen and (min-width: 480px) and (max-width: 1199px){
+        margin-bottom: 60px;
+    }
 }
 
 .link-address,
@@ -11,13 +17,23 @@
     line-height: 1.7142;
     letter-spacing: 0.03em;
     color: var(--white-logo-hero-color);
-
+    // padding-bottom:12px;
     display: flex;
+    justify-content: center;
+    // ???????display: flex;
+
+            @media screen and (min-width: 1200px) {
+                    display: flex;
+                    justify-content: flex-start;
+                }
+
+   
 }
 
 .link-address,
 .link-list {
-    margin-bottom: 9px;
+    padding-bottom: 12px;
+    // margin-bottom: 9px;
 }
 
 .link-list,
