@@ -2,7 +2,11 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 1200px){
+        margin-bottom: 30px;
+    }
 }
 
 .social-network-item {

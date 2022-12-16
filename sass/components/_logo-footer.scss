@@ -2,12 +2,17 @@
     color: var(--white-logo-hero-color);
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.1923;
+    font-size: 24px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-decoration: none;
 
     display: flex;
-    margin-bottom: 20px;
-    align-items: baseline
+    margin-bottom: 28px;
+    align-items: baseline;
+
+        @media screen and (min-width: 1200px) {
+                    font-size: 26px;
+                     line-height: 1.1923;
+            }
 }

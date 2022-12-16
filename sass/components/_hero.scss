@@ -58,8 +58,8 @@
 
 .hero {
     background-color: var(--footer-background-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/overlay.jpg);
@@ -67,14 +67,19 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media screen and (min-width: 1200px) {
+            padding-top: 200px;
+            padding-bottom: 200px;
+    
+        }
 }
 
 .container-hero {
-    width: 1200px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* height: 600px;*/
 
 @media screen and (min-width: 480px) {
         max-width: 480px;
@@ -92,11 +97,17 @@
 .hero-title {
     color: var(--white-logo-hero-color);
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.3636;
+    font-size: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    @media screen and (min-width: 1200px) {
+            font-size: 44px;
+            line-height: 1.3636;
+        }
+
 }
 
 .hero-button {

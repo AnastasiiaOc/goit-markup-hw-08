@@ -3,7 +3,11 @@
     align-items: baseline;
     right: 0;
     top: 12px;
-    position: absolute;
+
+@media screen and (min-width: 1200px) {
+            position: absolute;
+            }
+    
 }
 
 .form-position {

@@ -1,12 +1,39 @@
 .container-footer {
-    display: flex;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
 
-    align-items: baseline;
-    position: relative;
+    padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        align-items: baseline;
+            // position: relative;
+
+
+    @media screen and (min-width: 480px) {
+            max-width: 480px;
+            width: 100%;
+
+        }
+    
+        @media screen and (min-width: 768px) {
+            max-width: 768px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            text-align: center;
+            // position: relative;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            max-width: 1200px;
+                display: flex;
+                    width: 100%;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    margin: 0 auto;
+                
+                    align-items: baseline;
+                    position: relative;
+    
+        }
 }
 
 .footer-contacts {
@@ -17,4 +44,6 @@
     background-color: var(--footer-background-color);
     padding-top: 60px;
     padding-bottom: 60px;
+    margin:auto;
+    display: block;
 }
