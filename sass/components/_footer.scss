@@ -20,6 +20,7 @@
             flex-wrap: wrap;
             align-items: baseline;
             text-align: center;
+            justify-content: space-between;
             // position: relative;
         }
     
@@ -38,6 +39,17 @@
 }
 
 .footer-contacts {
+
+    // @media screen and (min-width: 300px)
+    // {
+    //                 display: flex;
+    //                     flex-wrap: wrap;
+    //                     flex-direction: column;
+    //                     justify-content: center;
+    //                     align-items: center;
+
+    // }
+
 
         @media screen and (min-width: 480px) and (max-width: 1199px){
             display: flex;
