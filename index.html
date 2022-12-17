@@ -220,7 +220,10 @@
           <ul class="actions-illustrations">
             <li class="actions-list">
               <a href="#" target="_blank" rel="noopener nofollow noreferrer"
-                ><img
+                >
+
+                <img
+                  srcset="./images/box1.jpg 1x, ./images/box12X.jpg 2x"
                   src="./images/box1.jpg"
                   alt="Розробка сайтів. "
                   width="370"
@@ -229,7 +232,7 @@
             </li>
 
             <li class="actions-list">
-              <img
+              <img   srcset="./images/box2.jpg 1x, ./images/box22X.jpg 2x"
                 src="./images/box2.jpg"
                 alt="Розробка мобільних додатків."
                 width="370"
@@ -238,7 +241,8 @@
             </li>
 
             <li class="actions-list">
-              <img src="./images/box3.jpg" alt="Дизайн." width="370" />
+              <img  srcset="./images/box3.jpg 1x, ./images/box32X.jpg 2x"
+              src="./images/box3.jpg" alt="Дизайн." width="370" />
             <p class="actions-text">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -253,7 +257,18 @@
 
           <ul class="team-list">
             <li class="team-card">
-              <img class="team-card-image" src="./images/img.jpg" alt="Ігор Дем'яненко" width="270" />
+
+                <picture>
+                  <source srcset="./images/man.jpg 1x, ./images/img2X.jpg 2x" media="(min-width: 1200px)" />
+                  <source srcset="./images/img-tab.jpg 1x, ./images/img-tab2X.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/img-mob.jpg 1x, ./images/img-mob2X.jpg 2x" media="(max-width: 767px)"/>
+                              
+                    <img class="team-card-image" src="./images/img-mob.jpg"
+                                alt="Ігор Дем'яненко" width="450" />
+                              
+                </picture>
+  
+
               <div class="team-text">
                 <h3 class="team-members">Ігор Дем'яненко</h3>
                 <p lang="en" class="team-job">Product Designer</p>
@@ -298,7 +313,20 @@
             </li>
 
             <li class="team-card">
-              <img class="team-card-image" src="./images/img1.jpg" alt="Ольга Рєпіна" width="270" />
+
+              <picture>
+                                
+              <source srcset="./images/img1.jpg 1x, ./images/img12X.jpg 2x" media="(min-width: 1200px)"/>
+              <source srcset="./images/img1-tab.jpg 1x, ./images/img1-tab2X.jpg 2x" media="(min-width: 768px)" />
+              <source srcset="./images/img1-mob.jpg 1x, ./images/img1-mob2X.jpg 2x" media="(max-width: 767px)" />
+
+                              
+              <img  class="team-card-image" src="./images/img1-mob.jpg"
+                alt="Ольга Рєпіна" width="450"/>
+                              
+             </picture> 
+
+
               <div class="team-text">
                 <h3 class="team-members">Ольга Рєпіна</h3>
                 <p lang="en" class="team-job">Frontend Developer</p>
@@ -343,7 +371,20 @@
             </li>
 
             <li class="team-card">
-              <img class="team-card-image" src="./images/img2.jpg" alt="Микола Тарасов" width="270" />
+
+
+              <picture>
+                <source srcset="./images/img2.jpg 1x, ./images/img22X.jpg 2x" media="(min-width: 1200px)" />
+                <source srcset="./images/img2-tab.jpg 1x, ./images/img2-tab2X.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./images/img2-mob.jpg 1x, ./images/img2-mob2X.jpg 2x" media="(max-width: 767px)" />
+              
+                <img class="team-card-image" src="./images/img-mob.jpg" alt="Ігор Дем'яненко" width="450" />
+              
+              </picture>
+
+
+              <!-- <img srcset="./images/img2.jpg 1x, ./images/img22X.jpg 2x"
+              class="team-card-image" src="./images/img2.jpg" alt="Микола Тарасов" width="270" /> -->
               <div class="team-text">
                 <h3 class="team-members">Микола Тарасов</h3>
                 <p lang="en" class="team-job">Marketing</p>
@@ -388,7 +429,18 @@
             </li>
 
             <li class="team-card">
-              <img  class="team-card-image" src="./images/img3.jpg" alt="Михайло Єрмаков" width="270" />
+
+                  <picture>
+                  <source srcset="./images/img3.jpg 1x, ./images/img32X.jpg 2x" media="(min-width: 1200px)" />
+                  <source srcset="./images/img3-tab.jpg 1x, ./images/img3-tab2X.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/img3-mob.jpg 1x, ./images/img3-mob2X.jpg 2x" media="(max-width: 767px)" />
+                            
+                  <img class="team-card-image" src="./images/img3-mob.jpg" alt="Ігор Дем'яненко" width="450" />
+                            
+                  </picture>
+
+              <!-- <img srcset="./images/img3.jpg 1x, ./images/img32X.jpg 2x"
+              class="team-card-image" src="./images/img3.jpg" alt="Михайло Єрмаков" width="270" /> -->
               <div class="team-text">
                 <h3 class="team-members">Михайло Єрмаков</h3>
                 <p lang="en" class="team-job">UI Designer</p>
