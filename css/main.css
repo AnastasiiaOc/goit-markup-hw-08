@@ -648,11 +648,14 @@ ul {
 }
 
 .container-header {
+  position: relative;
   display: flex;
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
   width: 100%;
+  height: 80px;
+  justify-content: space-between;
   margin: 0 auto;
 }
 @media screen and (min-width: 480px) {
@@ -682,7 +685,14 @@ ul {
   list-style: none;
   display: flex;
   align-items: center;
-  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .navigation :not(:first-child) {
@@ -741,6 +751,7 @@ ul {
   padding: 0;
   border: 0;
   background-color: transparent;
+  margin-left: 80px;
 }
 @media screen and (min-width: 768px) {
   .menu-button {
@@ -851,6 +862,7 @@ ul {
   font-size: 34px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  color: var(--logo-hover-color);
 }
 
 .menu-social {
