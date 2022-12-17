@@ -22,6 +22,8 @@
   border-bottom: 1px solid #ececec;
   background-color: var(--head-background-color);
 
+  position: relative;
+
 }
 
 .container-header {
@@ -35,6 +37,8 @@
   width:100%;
   height: 80px;
   justify-content: space-between;
+
+  //  overflow:auto;
  
   margin: 0 auto;
  
