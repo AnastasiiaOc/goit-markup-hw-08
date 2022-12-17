@@ -11,6 +11,7 @@
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+            margin: 0 auto;
     
     // flex-wrap: wrap;
     // justify-content: center;
@@ -30,12 +31,13 @@
 
 .form-position {
 
-    @media screen and (min-width: 480px)and (max-width: 1199px){
+    @media screen and (min-width: 320px)and (max-width: 1199px){
         display:flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin: 0 auto;
 
     }
 
@@ -64,16 +66,17 @@
     // }
 
 
-     @media screen and (min-width: 480px) and (max-width: 1199px) {
-                display: flex;
-                justify-content: center;
+     @media screen and (min-width: 320px) and (max-width: 1199px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
             }
 }
 
 .form-input-mail {
     box-sizing: border-box;
 
-    width: 358px;
+    width:450px;
     height: 50px;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -109,7 +112,17 @@
 
     }
 
-     @media screen and (min-width: 480px) and (max-width: 1199px) {
+     @media screen and (min-width: 320px) and (max-width: 479px){
+        width: 100%;
+        max-width: 450px;
+
+     }
+     @media screen and (min-width: 320px) and (max-width: 1199px) {
     margin-bottom: 20px;
-                }
+        }
+
+    @media screen and (min-width: 1200px){
+            width: 358px;
+    }
+
 }
