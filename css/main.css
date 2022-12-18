@@ -1524,7 +1524,7 @@ __title {
     flex-wrap: wrap;
     align-items: baseline;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 1200px) {
