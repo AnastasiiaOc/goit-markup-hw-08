@@ -687,7 +687,6 @@ ul {
   list-style: none;
   display: flex;
   align-items: center;
-  position: relative;
 }
 
 .navigation {
