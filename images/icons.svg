@@ -140,8 +140,12 @@
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M6.263 15.225l-0.221-0.211-0.221 0.208-3.085 2.925 0.243 0.234 11.41 10.882 0.221-0.211 24.26-23.143-0.243-0.23-3.044-2.903-0.221 0.211-20.973 19.991-8.126-7.752z"></path>
 </symbol>
 
-<symbol id="icon-menu-mobile" viewBox="0 0 48 32">
+<!-- <symbol id="icon-menu-mobile" viewBox="0 0 48 32">
 <path d="M0 5.336v-5.336h48.014v5.336h-48.014zM0 18.671h48.014v-5.334h-48.014v5.334zM0 32.009h48.014v-5.336h-48.014v5.336z"></path>
+</symbol> -->
+
+<symbol id="icon-menu-mobile" viewBox="0 0 32 32">
+<path d="M6.4 11.733v-2.133h19.2v2.133h-19.2zM6.4 17.067h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.133h-19.2v2.133z"></path>
 </symbol>
 
 <symbol id="icon-close-mobile" viewBox="0 0 32 32">
